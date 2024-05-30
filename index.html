@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5e06229001.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    <title>Duki FanPage</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <a href="#">
+                <div class="dukiBarra">
+                    <img src="./assets/images/icono.png" alt="" class="dBarra">
+                    <p>uki</p>
+                </div>
+            </a>
+            <ul class="barra">
+                <li><a href="#aboutDuki">Sobre Duki</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#hits">Hits</a></li>
+                <li><a href="./pages/registrarse.html">Registrate</a></li>
+                <li><a href="./pages/inicioSesion.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="duki" id="aboutDuki">
+            <div>
+                <h1>DUKI</h1>
+                <h2>¿Quién es Duki?</h2>
+                <p> Duki, Duko, el rey del trap argentino, como lo denominan algunos. Mauro Ezequiel Lombardo Quiroga es un rapero y compositor argentino que se popularizó por el género de "Trap" en los últimos años.</p>
+                <p> El artista comenzó su carrera en las batallas de FreeStyle por la época del 2012 yendo a diferentes batallas de plazas, pero la competencia que le cambio la vida fue "El Quinto Escalón", competencia por la cual pasaron muchos artistas de la actual escena Argentina (Duki, Ysy A, Tiago PZK, entre muchos otros). Duki logro coronarse campeón de la competencia en la sexta fecha del año 2016, el premio de esa fecha era grabar una canción en un estudio y allí fue donde creo su primer hit "No Vendo Trap."</p>
+                <p> Duki dejo las competencias de freestyle en el año 2017, debido a que buscaba dedicarse a la música en su tiempo completo. Actualmente, se lo puede ver de espectador en diferentes competencias, se lo suele ver bastante seguido en la "Liga Bazooka".</p>
+            </div>
+            <div>
+                <p>Te dejo un video de Ale Marin, quien en su video explica quien mucho mejor quien es Duki.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dkEQZV43TN4?si=nZ6EjVln6I0ZcC0W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="paraClima">
+                <h2>Clima en la ciudad donde vive Duki</h2>
+                <p><span>Ciudad:</span> <span id="city"></span></p>
+                <p><span>Temperatura:</span> <span id="temperature"></span> °C</p>
+                <p class="conIcono"><span>Clima:</span> <span id="weather" class="climap"></span> <img id="weatherIcon" src="" alt=""></p>
+            </div>
+        </section>
+        <section class="noticias" id="noticias">
+            <h2>NOTICIAS</h2>
+            <div class="cuadroNoticias">
+                <div class="noticiaCuadro">
+                    <img src="./assets/images/noticias/gira-mexico/poster.jpg" alt="Poster gira por mexico">
+                    <div>
+                        <h3>Gira de Duki por México</h3>
+                        <p>El artista estar+a dando un tour por México el cual cuenta con 3 Fechas.</p>
+                    </div>
+                </div>
+                <div class="noticiaCuadro">
+                    <img src="./assets/images/noticias/show-emilia/dukiYEmilia.jpg" alt="Duki junto a Emilia en el escenario">
+                    <div>   
+                        <h3>Duki sorprende al público de Emilia</h3>
+                        <p>Duki se presentó en el escenario junto a Emilia para interpretar las canciones que tienen juntos y creando un lindo momento</p>
+                    </div>
+                </div>
+                <div class="noticiaCuadro">
+                    <img src="./assets/images/noticias/duki-en-la-cancha-de-banfield/cancha-de-banfield.jpg" alt="Duki en la cancha de Banfield">
+                    <div>   
+                        <h3>Duki en la cancha de Banfield</h3>
+                        <p>La pasada fecha de la copa de la liga, en la que se enfrentaron Banfield e Independiente de avellaneda, se pudo ver al artista en la cancha. El artista fue con su manager y amigo, el cual es fanático del club Banfield</p>
+                    </div>
+            </div>    
+            </div>
+        </section>
+        <section class="canciones">
+            <div>
+                <h2>Sus últimas canciones en su cuenta</h2>
+                <div class="listaCancion">
+                    <div class="cancion">
+                            <a href="./pages/canciones/detalle.html"><img src="./assets/images/canciones/ultimas/call-me-maybe.jpg" alt="Portada de Call Me Maybe">
+                                <div class="titulo">
+                                    <h3>Call Me Maybe</h3>     
+                                </div>
+                            </a>
+                    </div>
+                    <div class="cancion">
+                            <a href="./pages/canciones/detalle.html">
+                                <img src="./assets/images/canciones/ultimas/troya.jpg" alt="Portada de Troya">
+                            <div class="titulo">
+                                <h3>Troya</h3>
+                            </div>
+                            </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/ultimas/remember-me.jpg" alt="Portada de Remember Me">
+                        <div class="titulo">       
+                            <h3>Remember Me</h3>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="botones">
+                    <button>Anterior</button>
+                    <button>Siguiente</button>
+                </div>
+            </div>
+            <div id="hits" class="hits">
+                <h2>Mayores Hits</h2>
+                <h2>Con su participación</h2>
+                <div class="listaCancion">
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/hits/loca.jpg" alt="Portada de Loca">
+                        <div class="titulo">
+                            <h3>Loca</h3>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/hits/she-dont-give-a-fo.jpg" alt="Portada de She Don't Give a FO">
+                        <div class="titulo">
+                            <h3>She Don't Give a FO</h3>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/hits/ademas-de-mi-remix.jpg" alt="Portada de Además de Mi Remix">
+                        <div class="titulo">
+                            <h3>Además de Mi Remix</h3>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/hits/no-me-conocen-remix.jpg" alt="Portada de No Me Conocen Remix">
+                        <div class="titulo">
+                            <h3>No Me Conocen Remix</h3>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/hits/los-del-espacio.jpg" alt="Portada de Los del Espacio">
+                        <div class="titulo">
+                            <h3>Los del Espacio</h3>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/hits/tumbando-el-club-remix.jpg" alt="Portada de Tumbando el Club Remix">
+                        <div class="titulo">
+                            <h3>Tumbando el Club Remix</h3>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>Solo</h2>
+                <div class="listaCancion">
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/solo/goteo.jpg" alt="Portada de Goteo">
+                        <div class="titulo">
+                            <h3>Goteo</h3>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/solo/hello-cotto.jpg" alt="Portada de Hello Cotto">
+                            <div class="titulo">
+                                <h3>Hello Cotto</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cancion">
+                        <a href="./pages/canciones/detalle.html">
+                            <img src="./assets/images/canciones/solo/givenchy.jpg" alt="Portada de Givenchy">
+                        <div class="titulo">
+                            <h3>Givenchy</h3>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>Duki Redes</p>
+            <div class="redes">
+                <a href="https://instagram.com/duki" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/DukiSSJ" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://twitch.tv/duki" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://www.tiktok.com/@duki" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div>
+            <p>Mis Redes</p>
+            <div class="redes">
+                <a href="https://instagram.com/ivann._ok" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/Ivannn_ok" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://twitch.tv/AusenteSSJ" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://www.tiktok.com/@ivann._ok" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div>
+            <a href="#" class="admin">ADMIN PAGE</a>
+        </div>
+    </footer>
+    <script>
+
+    async function fetchWeather(city) {
+            const url = "https://api.openweathermap.org/data/2.5/weather";
+            const apiKey = "21e3195e9bfeb6879e788ec605b09ab0";
+            const units = "metric";
+            const lang = "es";
+
+            const response = await fetch(`${url}?q=${city}&appid=${apiKey}&units=${units}&lang=${lang}`);
+            const data = await response.json();
+            return data;
+        }
+
+        async function updateWeatherCard(city) {
+            const weatherData = await fetchWeather(city);
+            console.log(weatherData);
+            document.getElementById("city").textContent = weatherData.name;
+            document.getElementById("temperature").textContent = weatherData.main.temp;
+            document.getElementById("weather").textContent = weatherData.weather[0].description;
+            const iconCode = weatherData.weather[0].icon;
+            const iconUrl = `https://openweathermap.org/img/w/${iconCode}.png`;
+            document.getElementById("weatherIcon").src = iconUrl;
+            document.getElementById("weatherIcon").alt = weatherData.weather[0].description;
+        }
+
+        updateWeatherCard("Buenos Aires");
+    </script>
+</body>
+</html>

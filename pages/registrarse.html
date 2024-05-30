@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5e06229001.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">  
+    <title>Duki FanPage</title>
+</head>
+<body class="body bodyR">
+    <header class="header">
+        <nav class="nav">
+            <a href="../index.html">
+                <div class="dukiBarra">
+                    <img src="../assets/images/icono.png" alt="" class="dBarra">
+                    <p>uki</p>
+                </div>
+            </a>
+        </nav>
+    </header>
+    <main class="registro">
+        <div class="container">
+            <h1>REGISTRATE</h1>
+            <h2>Formulario de Registro</h2>
+            <div>
+                <form id="registerForm" action="#" method="post">
+                    <div class="form-group">
+                        <label for="username">Nombre: </label>
+                        <input type="text" id="username" name="username" placeholder="Nombre">
+                        <div id="userError" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico: </label>
+                        <input type="email" id="email" name="email" placeholder="Correo">
+                        <div id="emailError" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña: </label>
+                        <input type="password" id="password" name="password" placeholder="Contraseña">
+                        <div id="passwordError" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Fecha de Nacimiento: </label>
+                        <input type="date" id="date" name="date">
+                        <div id="dateError" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nacionalidad">Nacionalidad</label>
+                        <select name="nacionalidad" id="nacionalidad">
+                            <option value="0">País</option>
+                            <option value="1">Argentina</option>
+                            <option value="2">Chile</option>
+                            <option value="3">Uruguay</option>
+                            <option value="4">Paraguay</option>
+                        </select>
+                        <div id="nacionalidadError" class="error-message"></div>
+                    </div>
+                    <div class="form-group check">
+                        <input type="checkbox" id="termsCheck" name="termsCheck">
+                        <label for="termsCheck">Terminos y Condiciones.</label>
+                        <div id="termsError" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="enviarRegistro btn-submit">Enviar</label>
+                        <input type="submit" id="enviarRegistro" name="enviarRegistro">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="../js/validarRegistro.js"></script>
+</body>
+</html>
